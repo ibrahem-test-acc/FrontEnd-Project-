@@ -1,0 +1,1036 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="../node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="all.min.css" />
+    <link rel="stylesheet" href="../Project/styles.css">
+    <title>Coronavirus (Covid-19)</title> 
+  </head>
+  <body style="width: 100%;">
+    <div style="background-color: rgb(243 248 255);">
+      <i id="upBtn" class="fa-solid fa-arrow-up"></i>
+      <div class="body1 section" id="home" style="width: 100%;">
+        <nav id="nav">
+          <div class="logo">
+            <span>C </span>
+            <span>
+              <img
+                class="logoImage"
+                src="../imgs/TitleIcon-removebg-preview.png"
+                alt="Logo"
+                width="25"
+                height="25"
+            /></span>
+            <span> V</span>
+            <span> I</span>
+            <span> D</span>
+            <span style="color: rgb(71 99 142)"> 1</span>
+            <span style="color: rgb(71 99 142)"> 9</span>
+          </div>
+
+          <ul id="theNav" class="nav justify-content-center">
+            <li class="nav-item">
+              <a id="home" class="nav-link" aria-current="page" href="#home"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about-covid">About Corona</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#symptoms">Symptoms</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#prevention">Prevention</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#treatment">Treatment</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Q-A">FAQ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#news">News</a>
+            </li>
+            <li class="nav-item" style="display: none;">
+              <a class="nav-link" href="#wash-hands"></a>
+            </li>
+            <li class="nav-item" style="display: none;">
+              <a class="nav-link" href="#transmission"></a>
+            </li>
+            <li class="nav-item" style="display: none;">
+              <a class="nav-link" href="#take-steps"></a>
+            </li>
+            <li class="nav-item" style="display: none;">
+              <a class="nav-link" href="#dos-donts"></a>
+            </li>
+            <li class="nav-item" style="display: none;">
+              <a class="nav-link" href="#footer"></a>
+            </li>
+            <li class="nav-item" style="padding-left: 16px; color: #fff !important;">
+              <a
+                class="btn btn-primary"
+                href="#dos-donts"
+                role="button"
+                style="border-radius: 5rem; color: #fff; padding: 0.5rem 1.5rem;"
+                >Do & Don't</a
+              >
+            </li>
+          </ul>
+          <button class="toggle-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+          <div style="
+    position: absolute;
+    list-style-type: none;
+    padding: 0;
+    background-color: rgb(13 110 253 / 70%);
+    height: 100vh;
+    width: 100%;
+    margin-top: 0;
+    display: none;
+    z-index: 200; 
+    position: absolute;
+" id="hidden-menu">
+          <ul style="
+    background-color: white;
+    width: fit-content;
+    height: 100vh;
+    padding-left: 0;
+    margin-left: 0;
+    list-style-type: none;
+    padding: 10vw 3vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color: rgb(71 99 142);
+">
+            <li class="nav-item">
+              <a id="home" class="nav-link" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about-covid">About Corona</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#symptoms">Symptoms</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#prevention">Prevention</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#treatment">Treatment</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Q-A">FAQ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#news">News</a>
+            </li>
+            <li class="nav-item" style="padding-left: 16px;color: #fff !important;">
+              <a class="btn btn-primary" href="#dos-donts" role="button" style="border-radius: 5rem; color: #fff;">Do &amp; Don't</a>
+            </li>
+          </ul>
+          <button><i class="fa-solid fa-xmark" style="top: 1vw;position: absolute;right: 4vw;font-size: 3vw;border: blue 1px solid;border-radius: 50%;color: white;background-color: blue;padding: 1vw 1.5vw;" id="close-h-m"></i></button>
+        </div>
+        </nav>
+        <div class="page1">
+          <div class="columns" style="font-size: large; width: 50%">
+            <span class="rows" style="margin-bottom: 7%; margin-right: 4%"
+              ><h1
+                style="font-weight: bold; color: rgb(71 99 142); font-size: 6vw"
+              >
+                CORONA
+              </h1>
+              <span class="columns" style="font-size: 2.5vw">
+                <span style="font-weight: bold; color: red">COVID-19</span>
+                <span style="font-weight: bold; color: rgb(71 99 142)"
+                  >VIRUS</span
+                >
+              </span>
+            </span>
+            <span style="margin-bottom: 10%; font-size: 1vw;">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
+              eveniet vitae voluptate fugit esse neque, nobis cumque. Corrupti
+              earum et pariatur dolor, nesciunt aperiam natus distinctio nemo
+              veritatis, quod esse..</span
+            >
+            <span
+              class="rows"
+              style="
+                justify-content: space-between;
+                align-items: center;
+                margin-bottom: 10%;
+              "
+            >
+              <a
+                class="btn btn-primary"
+                href="#dos-donts"
+                role="button"
+                style="
+                  border-radius: 70px;
+                  color: #fff;
+                  font-weight: bold;
+                  width: 30%;
+                  font-size: 1vw;
+                "
+                >How To Protect
+                <i class="fa-sharp fa-solid fa-shield" style="padding-left: 0.5vw;"></i>                
+                <a
+                href="#about-covid"
+                style="
+                  font-weight: bold;
+                  color: #0096fe;
+                  width: 40%;
+                  text-decoration: none;
+                  font-size: 1vw;
+                "
+                >About COVID-19
+                <i class="fa-solid fa-arrow-right" style="color: #0096fe ;font-size: 1vw; vertical-align: middle; padding-left: 0.5vw;"></i>
+              </a>
+            </span>
+
+            <table style="margin-bottom: 2vh">
+              <tr
+                style="
+                  color: rgb(56 74 107 / 72%);
+                  border-color: transparent;
+                  border-left: 0px;
+                "
+              >
+                <th style="font-weight: normal; width:33%;font-size: 1vw;">WORLDWIDE CASES</th>
+                <th style="font-weight: normal; width:33%;font-size: 1vw;">DEATHS</th> 
+                <th style="font-weight: normal; width:33%;font-size: 1vw;">RECOVERD</th>
+              </tr>
+              <tr
+                style="
+                  font-weight: bold;
+                  font-size: 1.5vw;
+                "
+              class="nums"
+              >
+                <td class="num" data-goal="8948671">8948000</td>
+                <td class="num" data-goal="467432">467000</td>
+                <td class="num" data-goal="4556091">4555500</td>
+              </tr>
+            </table>
+            <div style="position: absolute; bottom: 0;">
+              <i style="color: rgb(56 74 107 / 72%); font-size: 1vw;"
+                >*Last updated: Jan21, 2020, 09:24 AM America/Chicago</i
+              >
+            </div>
+          </div>
+          <img
+            src="../imgs/header-a.png"
+            alt="Error!"
+            width="50%"
+            height="80%"
+          />
+        </div>
+      </div>
+      <div class="body2 section" id="about-covid">
+        <div class="container" style="display: flex; flex-direction: row; justify-content: space-between; align-items: center;">
+        <div class="about-the-disease">
+          <h4 style="color: #0096fe ;font-size: 1.5vw;">ABOUT THE DISEASE</h4>
+          <h2 style="font-weight: bold; color: rgb(71 99 142); font-size: 2vw;">
+            CORONAVIRUS (COVID-19)
+          </h2>
+          <p>
+            <span style="color: rgb(56 74 107); font-weight: bold;">
+              COVID-19 is a new illness that can affect your lungs and
+              airways.</span
+            >Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere non
+            vitae nam praesentium sapiente autem, sit quod itaque nihil
+            voluptates dolor, repudiandae voluptatem aliquid at dicta explicabo
+            accusamus? Quos, et!
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis
+            error optio veniam, explicabo impedit rem? Sit deleniti nobis culpa!
+            Similique animi saepe harum quas mollitia amet ipsam nulla minima
+            tenetur.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
+            placeat vel quos consequuntur velit tempore esse quisquam voluptate,
+            perferendis excepturi eligendi nulla harum dolore, odit eveniet
+            deleniti! Laboriosam, facere culpa!
+          </p>
+        </div>
+        <table class="table table-bordered">
+          <th style="color: rgb(56 74 107); font-size: 1vw">
+            What you need to know
+          </th>
+          <tr>
+            <td style="display: flex; justify-content: space-between">
+              <span style="font-weight: 600">How coronavirus is spread</span>
+              <span>
+                <i class="fa-solid fa-arrow-right" style="color: #0096fe ;font-size: 1vw; vertical-align: middle; padding-left: 0.5vw;"></i>
+              </span>
+            </td>
+          </tr>
+          <tr>
+            <td style="display: flex; justify-content: space-between">
+              <span style="font-weight: 600">Symptoms of coronavirus</span>
+              <span>
+                <i class="fa-solid fa-arrow-right" style="color: #0096fe ;font-size: 1vw; vertical-align: middle; padding-left: 0.5vw;"></i>
+              </span>
+            </td>
+          </tr>
+          <tr>
+            <td style="display: flex; justify-content: space-between">
+              <span style="font-weight: 600">How to protect your self</span>
+              <span>
+                <i class="fa-solid fa-arrow-right" style="color: #0096fe ;font-size: 1vw; vertical-align: middle; padding-left: 0.5vw;"></i>
+              </span>
+            </td>
+          </tr>
+          <tr>
+            <td style="display: flex; justify-content: space-between">
+              <span style="font-weight: 600">Treatment for coronavirus</span>
+              <span>
+                <i class="fa-solid fa-arrow-right" style="color: #0096fe ;font-size: 1vw; vertical-align: middle; padding-left: 0.5vw;"></i>
+              </span>
+            </td>
+          </tr>
+          <tr>
+            <td style="display: flex; justify-content: space-between">
+              <span style="font-weight: 600">Myth-Busters of coronavirus</span>
+              <span>
+                <i class="fa-solid fa-arrow-right" style="color: #0096fe ;font-size: 1vw; vertical-align: middle; padding-left: 0.5vw;"></i>
+              </span>
+            </td>
+          </tr>
+          <tr>
+            <td style="display: flex; justify-content: space-between">
+              <span style="font-weight: 600">Questions & answers</span>
+              <span>
+                <i class="fa-solid fa-arrow-right" style="color: #0096fe ;font-size: 1vw; vertical-align: middle; padding-left: 0.5vw;"></i>
+              </span>
+            </td>
+          </tr>
+        </table>
+      </div>     
+      </div>     
+      <div class="transmission container section" id="transmission">
+        <h5
+          style="font-weight: bold; color: #0096fe; text-transform: uppercase; font-size: 1.25vw;"
+        >
+          how coronavirus is spread
+        </h5>
+        <h2
+          style="
+            font-weight: bold;
+            color: rgb(71 99 142);
+            text-transform: uppercase;
+            font-size: 2vw;
+          "
+        >
+          transmission of covid-19
+        </h2>
+        <p style="text-align: center; width: 45vw; font-size: 1vw;">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima
+          perspiciatis earum tenetur maiores esse sapiente porro harum officiis
+          incidunt non, sint nostrum voluptates atque similique quidem qui vero
+          labore ullam.
+        </p>
+        <div class="cards">
+          <div class="card" style="width: 20vw">
+            <img src="../imgs/spread-a.png" class="card-img-top" alt="!!" />
+            <div id="card-border"></div>
+            <div class="card-body" style="padding: 1vw 1vw;">
+              <h5 class="card-title" style="color: #0096fe; font-size: 1.5vw;">
+                Person-to-person spread as close contact with infected
+              </h5>
+              <p class="card-text" style="font-size: 1vw ;">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum
+                reprehenderit quibusdam unde molestiae! Asperiores illum odit
+                tempore voluptatum nihil quo ab, sed commodi, doloribus deserunt
+              </p>
+            </div>
+          </div>
+          <div
+            class="card"
+            style="width: 20vw; margin-left: 2vw; margin-right: 2vw"
+          >
+            <img src="../imgs/spread-b.png" class="card-img-top" alt="!!" />
+            <div id="card-border"></div>
+            <div class="card-body" style="padding: 1vw 1vw;">
+              <h5 class="card-title" style="color: #0096fe; font-size: 1.5vw;">
+                Touching or contact with infected surfaces or objects
+              </h5>
+              <p class="card-text" style="font-size: 1vw ;">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero
+                deserunt enim, quae dicta quos aspernatur itaque quasi
+                cupiditate eos eius odio impedit nulla consectetur fugiat
+              </p>
+            </div>
+          </div>
+          <div class="card" style="width: 20vw">
+            <img src="../imgs/spread-c.png" class="card-img-top" alt="!!" />
+            <div id="card-border"></div>
+            <div class="card-body" style="padding: 1vw 1vw;">
+              <h5 class="card-title" style="color: #0096fe; font-size: 1.5vw;">
+                Droplets that from infected person coughs or sneezes
+              </h5>
+              <p class="card-text" style="font-size: 1vw ;">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
+                sint quisquam quasi soluta dicta ratione voluptates nostrum ipsa
+                rem est! Reiciendis blanditiis, eum libero modi nostrum animi
+              </p>
+            </div>
+          </div>
+        </div>
+        <button type="button" class="btn btn-primary btn-sm" style="border-radius: 10vw;padding: 0.5vw;font-size: 1vw ;font-weight: 500; margin-top: 1%;">
+          <i class="fa-regular fa-circle-question" style="color: white; padding-right: 1vw;"></i>
+          Have questions about spreading?
+        </button>
+      
+      </div>
+      <div class="body4 section" id="symptoms" style="background-color: white;">
+        <div class="container" style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+        <h5
+          style="font-weight: bold; color: #0096fe; text-transform: uppercase; font-size: 1.25vw;"
+        >
+          what are the symptoms of covid-19?
+        </h5>
+        <h2 style="font-weight: bold; color: rgb(71 99 142); text-transform: uppercase;font-size: 2vw;">symptoms of coronavirus</h2>  
+        <p style="text-align: center; width: 45vw; font-size: 1vw;">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima
+          perspiciatis earum tenetur maiores esse sapiente porro harum officiis
+          incidunt non, sint nostrum voluptates atque similique quidem qui vero
+          labore ullam.
+        </p>
+        <div class="cards2">
+          <div class="card">
+            <img src="../imgs/symptom-a.png"  alt="!!"height="40%" />
+            <div class="card-body" style="padding: 0vw 0vw;">
+              <h5 class="card-title" style="color: #0096fe; font-weight: 500;font-size: 1.1vw;width: 70%;; margin-bottom: 1vh;">Fever</h5>
+              <p class="card-text" style="font-size: 1vw;">
+                <span style="font-weight: bold ;">High Fever</span> - This means lorem ipsum dolor sit amet consectetur adipisicing elit. Earum
+                reprehenderit quibusdam unde molestiae! Asperiores illum odit
+              </p>
+            </div>
+          </div>
+          <div class="card" style="margin-left: 2vw; margin-right: 2vw">
+            <img src="../imgs/symptom-b.png" alt="!!"height="40%"/>
+            <div class="card-body" style="padding: 0vw 0vw;">
+              <h5 class="card-title" style="color: #0096fe; font-weight: 500;font-size: 1.1vw;width: 70%;; margin-bottom: 1vh;">Cough</h5>
+              <p class="card-text" style="font-size: 1vw;">
+                <span style="font-weight: bold ;">Continuous cough</span> - This means lorem ipsum dolor sit amet consectetur adipisicing elit. Earum
+                reprehenderit quibusdam unde molestiae! Asperiores illum odit
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="../imgs/symptom-c.png" alt="!!"height="40%" />
+            <div class="card-body" style="padding: 0vw 0vw;">
+              <h5 class="card-title" style="color: #0096fe; font-weight: 500;font-size: 1.1vw;width: 70%;; margin-bottom: 1vh;">Shortness of breath</h5>
+              <p class="card-text" style="font-size: 1vw;">
+                <span style="font-weight: bold ;">Difficulty breathing</span> - This means lorem ipsum dolor sit amet consectetur adipisicing elit. Earum
+                reprehenderit quibusdam unde molestiae! Asperiores illum odit
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="rows" style="justify-content: center; margin-top: 5%;">
+          <i class="fa-solid fa-triangle-exclamation fa-3x" style="color:#0d6efd; margin-right: 1%; font-size: 3vw;"></i>
+          <p style="width: 40%; font-style: italic; font-size: 1vw;"><span style="font-weight: bold ; color:#0d6efd; font-style: normal;">Stay at home and call your doctor.</span> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam illum architecto ipsam incidunt id, sit suscipit facilis. Illo eligendi ea deleniti maxime consequuntur, possimus cupiditate cum aspernatur asperiores doloremque beatae!</p>
+          <button type="button" class="btn btn-primary btn-sm" style="margin-left: 10%; border-radius: 50vw;font-weight: 500; align-self: center; padding-left: 1%; padding-right: 1%;font-size: 1vw;">
+            <i class="fa-regular fa-circle-question" style="color: white; padding-right: 1vw;"></i>
+            Have questions? Find answer
+          </button>
+        </div>
+        </div>
+        </div>
+          <div id="prevention" class="section container">
+            <h5
+            style="font-weight: bold; color: #0096fe; text-transform: uppercase;font-size: 1.25vw;"
+          >
+          how to protect your self?
+          </h5>
+          <h2 style="font-weight: bold; color: rgb(71 99 142); text-transform: uppercase;font-size: 2vw;">prevention & advice</h2>  
+          <p style="text-align: center; width: 45vw; font-size: 1vw;">lorem ipsum dolor sit amet consectetur adipisicing elit.<span style="font-weight: bold ;">The best way to prevent illness is to avoid being exposed to this virus.</span> Dolores, omnis! Eligendi obcaecati molestiae veniam officiis quis! Odit vitae alias ipsum provident explicabo veritatis sequi id quo doloremque similique.</p>
+          <div class="rows" style="justify-content: center; padding-bottom: 10vh;">
+            <div class="columns" style="align-items: center; width: 25%;">
+              <img src="../imgs/advice-a.png" width=50% alt="!!">              
+              <span style="font-weight: bold; margin-bottom: 1vh; font-size: 1vw; text-align: center;">Wash your hands frequently</span>
+              <span style="width: 70%; text-align: center; font-size: 1vw;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque temporibus excepturi, nam alias enim sequi! Inventore nemo ut tempora.</span>
+            </div>
+            <div class="columns" style="align-items: center; width: 25%;">
+              <img src="../imgs/advice-b.png" width=50% alt="!!">              
+              <span style="font-weight: bold; margin-bottom: 1vh; font-size: 1vw; text-align: center;">Maintain social distancing</span>
+              <span style="width: 70%; text-align: center; font-size: 1vw;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque temporibus excepturi, nam alias enim sequi! Inventore nemo ut tempora.</span>
+            </div>
+            <div class="columns" style="align-items: center; width: 25%;">
+              <img src="../imgs/advice-c.png" width=50% alt="!!">              
+              <span style="font-weight: bold; margin-bottom: 1vh; font-size: 1vw; text-align: center;">Avoid touching face</span>
+              <span style="width: 70%; text-align: center; font-size: 1vw;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque temporibus excepturi, nam alias enim sequi! Inventore nemo ut tempora.</span>
+            </div>
+            <div class="columns" style="align-items: center; width: 25%;">
+              <img src="../imgs/advice-d.png" width=50% alt="!!">              
+              <span style="font-weight: bold; margin-bottom: 1vh; font-size: 1vw; text-align: center;">Practice respiratory hygiene</span>
+              <span style="width: 70%; text-align: center; font-size: 1vw;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque temporibus excepturi, nam alias enim sequi! Inventore nemo ut tempora.</span>
+            </div>
+          </div>
+          <span
+          class="rows"
+          style="
+            justify-content: space-between;
+            align-items: center;
+            width: 60%;"
+            >
+          <a
+            class="btn btn-primary"
+            href="#"
+            role="button"
+            style="
+              border-radius: 70px;
+              color: #fff;
+              font-weight: bold;
+              font-size: 1vw;
+              padding: 0.5vw;
+            "
+            >check how you wash hand
+            <i class="fa-solid fa-arrow-right" style="color: white ; padding-left: 0.5vw;"></i>
+            <a
+            href=""
+            style="
+              font-weight: bold;
+              color: #0096fe;
+              text-decoration: none;
+              font-size: 1vw;
+            "
+            >Q&A on Coronavirus
+            <i class="fa-solid fa-arrow-right" style="color: #0096fe ; vertical-align: middle; padding-left: 1vw; font-size: 1vw;"></i>
+          </a>
+        </span>
+      </div>
+      <div id="take-steps" class="section">
+        <div class="container" style="display: flex; position: relative;">
+        <div style="height: 100%;">
+          <h2 style="font-weight: bold; color: rgb(71 99 142);width: max-content; height: 10%; font-size: 2vw;">Take steps to protect others</h2> 
+          <div style="width: 38vw ; display: flex; flex-direction: row; font-size: 1vw;">
+            <i class="fa-solid fa-circle-check" style="color: rgb(61, 202, 147); padding-right: 0.5vw; margin-top: 1.1vh; "></i>
+            <span>
+              <span style="font-weight: bold ;">Stay home if you're sick - </span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, aut? Ullam distinctio dolore dicta.
+            </span>
+          </div>
+          <div style="width: 38vw ; display: flex; flex-direction: row; font-size: 1vw;">
+            <i class="fa-solid fa-circle-check" style="color: rgb(61, 202, 147); padding-right: 0.5vw; margin-top: 1.1vh; "></i>
+            <span>
+              <span style="font-weight: bold ;">Cover your mouth and nose - </span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, aut? Ullam distinctio dolore dicta.
+            </span>
+          </div>
+          <div style="width: 38vw ; display: flex; flex-direction: row; font-size: 1vw;">
+            <i class="fa-solid fa-circle-check" style="color: rgb(61, 202, 147); padding-right: 0.5vw; margin-top: 1.1vh; "></i>
+            <span>
+              <span style="font-weight: bold ;">Wear a facemask if you are - </span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident voluptates id amet distinctio, corrupti temporibus ratione corporis inventore voluptate nam, laboriosam ducimus hic eaque atque.
+            </span>
+          </div>
+          <div style="width: 38vw ; display: flex; flex-direction: row; font-size: 1vw;">
+            <i class="fa-solid fa-circle-check" style="color: rgb(61, 202, 147); padding-right: 0.5vw; margin-top: 1.1vh; "></i>
+            <span>
+              <span style="font-weight: bold ;">Clean And disinfect frequently touched surfaces daily - </span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident voluptates id amet distinctio, corrupti temporibus ratione corporis inventore voluptate nam, laboriosam ducimus hic eaque atque.
+            </span>
+          </div>
+          <div style="width: 38vw ; display: flex; flex-direction: row; font-size: 1vw;">
+            <i class="fa-solid fa-circle-check" style="color: rgb(61, 202, 147); padding-right: 0.5vw; margin-top: 1.1vh; "></i>
+            <span>
+              <span style="font-weight: bold ;">Clean the dirty surfaces - </span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, aut? Ullam distinctio dolore dicta.
+            </span>
+          </div>
+          <div style="width: 38vw ; display: flex; flex-direction: row; font-size: 1vw;">
+            <i class="fa-solid fa-circle-check" style="color: rgb(61, 202, 147); padding-right: 0.5vw; margin-top: 1.1vh; "></i>
+            <span>
+              <span style="font-weight: bold ;">Stay informed about the local COVID-19 situation - </span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, aut? Ullam distinctio dolore dicta.
+            </span>
+          </div>
+          <div style="width: 38vw ; display: flex; flex-direction: row; font-size: 1vw;">
+            <i class="fa-solid fa-circle-check" style="color: rgb(61, 202, 147); padding-right: 0.5vw; margin-top: 1.1vh; "></i>
+            <span>
+              <span style="font-weight: bold ;">Dedicated, lined trash can - </span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident voluptates id amet distinctio, corrupti temporibus ratione corporis inventore voluptate nam, laboriosam ducimus hic eaque atque.
+            </span>
+          </div>
+        </div>
+        <div style="display: flex;justify-content: flex-end; align-items: flex-start; width:100%; margin-top: -1vw;">
+          <img src="../imgs/steps.png" alt="!!" style="width: 25vw;position: absolute; right: 0;">
+        </div>
+      </div>
+    </div>
+      <div id="wash-hands" class="container section">
+          <h2 style="font-weight: bold; color: rgb(71 99 142);width: max-content; height: 5%; font-size: 2vw;">Follow steps to wash hands</h2> 
+          <a
+          href=""
+          style="
+            color: #0096fe;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1vw;
+            margin-top: 1%;
+            margin-bottom: 2%;
+          "
+          >Why do I need to wash hand
+          <i class="fa-solid fa-arrow-right" style="color: #0096fe ; vertical-align: middle; padding-left: 1vw;"></i>
+        </a>
+        <div style="display: flex; width: 100%; justify-content: space-between;">
+          <div class="columns" style="align-items: center; width: 10%;">
+            <img src="../imgs/hand-a.png" alt="!!" width="100%" style="border-color: transparent; border-radius: 50%;">
+            <p style="font-weight: bold; font-size: 1vw;">Soap on Hand</p>
+          </div>
+          <div class="columns" style="align-items: center; width: 10%;">
+            <img src="../imgs/hand-b.png" alt="!!" width="100%" style="border-color: transparent; border-radius: 50%;">
+            <p style="font-weight: bold; font-size: 1vw;">Palm on Palm</p>
+          </div>
+          <div class="columns" style="align-items: center; width: 10%;">
+            <img src="../imgs/hand-c.png" alt="!!" width="100%" style="border-color: transparent; border-radius: 50%;">
+            <p style="font-weight: bold; font-size: 1vw;">Between Fingers</p>
+          </div>
+          <div class="columns" style="align-items: center; width: 10%;">
+            <img src="../imgs/hand-d.png" alt="!!" width="100%" style="border-color: transparent; border-radius: 50%;">
+            <p style="font-weight: bold; font-size: 1vw;">Back to Hands</p>
+          </div>
+          <div class="columns" style="align-items: center; width: 10%;">
+            <img src="../imgs/hand-e.png" alt="!!" width="100%" style="border-color: transparent; border-radius: 50%;">
+            <p style="font-weight: bold; font-size: 1vw;">Clean with Water</p>
+          </div>
+          <div class="columns" style="align-items: center; width: 10%;">
+            <img src="../imgs/hand-f.png" alt="!!" width="100%" style="border-color: transparent; border-radius: 50%;">
+            <p style="font-weight: bold; font-size: 1vw;">Focus on Wrist</p>
+          </div>
+        </div>
+      </div>
+      <div id="treatment" class="section">
+        <div class=" container" style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+        <div style="display: flex; flex-direction: row; padding: 10% 0%; color: white ;">
+            <div>
+              <h4 style="color: rgb(98, 226, 255) ;font-size: 1.5vw; text-transform: uppercase; padding-bottom: 1%;">be carefull & stay safe</h4>
+              <h2 style="font-weight: bold;font-size: 2vw; text-transform: uppercase;padding-bottom: 2%;">
+                treatment for coronavirus
+              </h2>
+              <p style="font-size: 1.1vw ;">
+                <span style="font-weight: bold; width: 80%;">
+                  To date, there is no vaccine and no specific antiviral medicine to prevent or treat COVID-19.</span
+                >Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere non
+                vitae nam praesentium sapiente autem, sit quod itaque nihil
+                voluptates dolor, repudiandae voluptatem aliquid at dicta explicabo
+                accusamus.
+              </p>
+              <p  style="font-size: 1.1vw; width: 80%;">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
+                placeat vel quos consequuntur velit tempore esse quisquam voluptate,
+                perferendis excepturi eligendi nulla harum dolore, odit eveniet
+                deleniti! Laboriosam, facere culpa!
+              </p>
+            </div>
+            <div class="selfCare">
+                <p style="font-size: 1.3vw; font-weight: bold; text-transform: capitalize; margin-bottom: 0.5vh;">self care</p>
+                <p style="font-size: 1.1vw;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor rem atque aliquid vero iste autem, reprehenderit illo incidunt fugit necessitatibus. Harum voluptates aut veniam eligendi molestiae impedit natus ratione odit.</p>
+              
+              <div style="display: flex; flex-direction: row; font-size: 1vw;">
+                <i class="fa-solid fa-arrow-right" style="color: white ; padding-right: 0.5vw; align-self: center;"></i>
+                
+                  <span style="margin-bottom: 0.2vh;">Rest and sleep</span>
+                
+              </div>
+              <div style="display: flex; flex-direction: row; font-size: 1vw;">
+                <i class="fa-solid fa-arrow-right" style="color: white ; padding-right: 0.5vw; align-self: center;"></i>
+                
+                  <span style="margin-bottom: 0.2vh;">Keep warm</span>
+                
+              </div>
+              <div style="display: flex; flex-direction: row; font-size: 1vw;">
+                <i class="fa-solid fa-arrow-right" style="color: white ; padding-right: 0.5vw; align-self: center;"></i>
+                
+                  <span style="margin-bottom: 0.2vh;">Drink plenty of liquids</span>
+                
+              </div>
+              <div style="display: flex; flex-direction: row; font-size: 1vw;">
+                <i class="fa-solid fa-arrow-right" style="color: white ; padding-right: 0.5vw; padding-top: 0.5vh;"></i>
+                
+                  <span style="margin-bottom: 0.2vh;">Use a room humidifier or take a hot shower to help ease a sore throat and cough</span>
+                
+              </div>
+              <p style="font-size: 1.3vw; font-weight: bold; text-transform: capitalize; margin-bottom: 0.5vh;">medical treatments</p>
+              <p style="font-size: 1.1vw;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor rem atque aliquid vero iste autem, reprehenderit illo incidunt fugit necessitatibus. Harum voluptates aut veniam eligendi molestiae impedit natus ratione odit.</p>
+            </div>
+        </div>
+      </div>
+    </div>
+      <div id="dos-donts" class="container section">
+        <h5
+        style="font-weight: bold; color: #0096fe; text-transform: uppercase; font-size: 1.25vw;"
+      >
+        do's & don'ts
+      </h5>
+      <h2 style="font-weight: bold; color: rgb(56 74 107); text-transform: uppercase;font-size: 2vw;">protect yourself</h2>  
+      <p style="text-align: center; width: 65%; font-size: 1vw;">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima
+        perspiciatis earum tenetur maiores esse sapiente porro harum officiis
+        incidunt non, sint nostrum voluptates atque similique quidem qui vero
+        labore ullam.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum adipisci voluptas neque molestias deserunt dolore! Ipsam.
+      </p>
+      <div style="margin-top: 5vh;display:flex; justify-content: space-between;">
+        <div style="display: flex; flex-direction: column;">
+          <div style="display: flex; width:18vw;justify-content: space-around; align-items: baseline;" >
+            <div style="color: #0d6efd; font-weight: bold; font-size: 1.3vw;">Avoid Close Contact</div>
+            <div style="position: relative;margin-bottom: 15%">
+              <img src="../imgs/donts-a.png" alt="!!" style="border: 0.2vw solid red ;border-radius: 50%; width: 5vw;">
+              <i class="fa-solid fa-xmark" style="top: -0.1vw; position: absolute; left: -0.1vw; font-size: 1vw; border: red 1px solid; border-radius: 50%; color: white; background-color: red; padding:0.3vw 0.5vw;" ></i>
+            </div>
+          </div>
+          <div style="display: flex; width:18vw;justify-content: space-around; align-items: baseline;" >
+           <div style="color: #0d6efd; font-weight: bold; font-size: 1.3vw;">Don't Touch Face</div>
+           <div style="position: relative;margin-bottom: 15%">
+            <img src="../imgs/donts-b.png" alt="!!" style="border: 0.2vw solid red ;border-radius: 50%; width: 5vw;">
+            <i class="fa-solid fa-xmark" style="top: -0.1vw; position: absolute; left: -0.1vw; font-size: 1vw; border: red 1px solid; border-radius: 50%; color: white; background-color: red; padding:0.3vw 0.5vw;" ></i>
+           </div>
+          </div>
+          <div style="display: flex; width:18vw;justify-content: space-around; align-items: baseline;">
+            <div style="color: #0d6efd; font-weight: bold; font-size: 1.3vw;">Social Distancing</div>
+           <div style="position: relative;">
+            <img src="../imgs/donts-c.png" alt="!!" style="border: 0.2vw solid red ;border-radius: 50%; width: 5vw;">
+            <i class="fa-solid fa-xmark" style="top: -0.1vw; position: absolute; left: -0.1vw; font-size: 1vw; border: red 1px solid; border-radius: 50%; color: white; background-color: red; padding:0.3vw 0.5vw;" ></i>
+          </div>
+        </div>
+        </div>
+        <img src="../imgs/protect.png" alt="!!" style="width: 35vw;">
+        <div>
+          <div style="display: flex; width:18vw;justify-content: space-around; align-items: baseline;">
+          <div style="position: relative;margin-bottom: 15%">
+           <img src="../imgs/dos-a.png" alt="!!" style="border: 0.2vw solid #48e748 ;border-radius: 50%; width: 5vw;">
+           <i class="fa-solid fa-check" style="top: -0.1vw; position: absolute; right: -0.1vw; font-size: 1vw; border: rgb(61, 202, 147) 1px solid; border-radius: 50%; color: white; background-color: rgb(61, 202, 147); padding: 0.2vw;" ></i>
+          </div>
+          <div style="color: #0d6efd; font-weight: bold; font-size: 1.3vw;">Wash Your Hands</div>
+          </div>
+          <div style="display: flex; width:18vw;justify-content: space-around; align-items: baseline;">
+          <div style="position: relative;margin-bottom: 15%">
+           <img src="../imgs/dos-b.png" alt="!!" style="border: 0.2vw solid #48e748 ;border-radius: 50%; width: 5vw;">
+           <i class="fa-solid fa-check" style="top: -0.1vw; position: absolute; right: -0.1vw; font-size: 1vw; border: rgb(61, 202, 147) 1px solid; border-radius: 50%; color: white; background-color: rgb(61, 202, 147); padding: 0.2vw;" ></i>
+          </div>
+          <div style="color: #0d6efd; font-weight: bold; font-size: 1.3vw;">Drink Much Water</div>
+          </div>
+          <div style="display: flex; width:18vw;justify-content: space-around; align-items: baseline;">
+          <div style="position: relative;">
+           <img src="../imgs/dos-c.png" alt="!!" style="border: 0.2vw solid #48e748 ;border-radius: 50%; width: 5vw;">
+           <i class="fa-solid fa-check" style="top: -0.1vw; position: absolute; right: -0.1vw; font-size: 1vw; border: rgb(61, 202, 147) 1px solid; border-radius: 50%; color: white; background-color: rgb(61, 202, 147); padding: 0.2vw;" ></i>
+          </div>
+          <div style="color: #0d6efd; font-weight: bold; font-size: 1.3vw;">Use Face Mask</div>
+          </div>
+        </div>
+      </div>
+      </div>
+      <div id="Q-A" class="section">
+        <div class="container" style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+          <h5 style="font-weight: bold; color: #0096fe; text-transform: uppercase; font-size: 1.25vw;">frequently asked questions</h5>
+          <h2 style="font-weight: bold; color: rgb(56 74 107); text-transform: uppercase;font-size: 2vw;">common question & answer</h2>  
+          <div style="display: flex; justify-content:space-evenly ; width: 100%;padding-top: 5vh;">
+            <div style="display: flex;flex-direction:column; justify-content: space-around; height: fit-content;">
+              <div type="button" id="n0" class="q-Button collored" style=" display: flex;justify-content: space-between; width: 20vw;padding: 0.5vw 1vw; margin-top: 2vh;position: relative; align-items: center; color: rgb(56 74 107); background-color: white;border: 0.3vw rgb(229,230,255) solid; font-size: 1vw; border-radius: 0.5vw;";>Coronavirus Disease 2019 Basics<i class="fa-solid fa-caret-right"></i></div>
+              <div type="button" id="n1" class="q-Button" style=" display: flex;justify-content: space-between; width: 20vw;padding: 0.5vw 1vw; margin-top: 1vh;position: relative; align-items: center; color: rgb(56 74 107); background-color: white;border: 0.3vw rgb(229,230,255) solid; font-size: 1vw; border-radius: 0.5vw;";>How Its Spreads<i class="fa-solid fa-caret-right"></i></div>
+              <div type="button" id="n2" class="q-Button" style=" display: flex;justify-content: space-between; width: 20vw;padding: 0.5vw 1vw; margin-top: 1vh;position: relative; align-items: center; color: rgb(56 74 107); background-color: white;border: 0.3vw rgb(229,230,255) solid; font-size: 1vw; border-radius: 0.5vw;";>How To Protect Yourself<i class="fa-solid fa-caret-right"></i></div>
+              <div type="button" id="n3" class="q-Button" style=" display: flex;justify-content: space-between; width: 20vw;padding: 0.5vw 1vw; margin-top: 1vh;position: relative; align-items: center; color: rgb(56 74 107); background-color: white;border: 0.3vw rgb(229,230,255) solid; font-size: 1vw; border-radius: 0.5vw;";>Symptoms & Testing<i class="fa-solid fa-caret-right"></i></div>
+              <div type="button" id="n4" class="q-Button" style=" display: flex;justify-content: space-between; width: 20vw;padding: 0.5vw 1vw; margin-top: 1vh;position: relative; align-items: center; color: rgb(56 74 107); background-color: white;border: 0.3vw rgb(229,230,255) solid; font-size: 1vw; border-radius: 0.5vw;";>Outbreack In Your Community<i class="fa-solid fa-caret-right"></i></div>
+              <div type="button" id="n5" class="q-Button" style=" display: flex;justify-content: space-between; width: 20vw;padding: 0.5vw 1vw; margin-top: 1vh;position: relative; align-items: center; color: rgb(56 74 107); background-color: white;border: 0.3vw rgb(229,230,255) solid; font-size: 1vw; border-radius: 0.5vw;";>Myth-Busters of coronavirus<i class="fa-solid fa-caret-right"></i></div>
+            </div>
+            <div id="que-ans"style="display: flex; flex-direction: column;">
+              <div class="nn non" id="n00" style="display: none ;">
+                <div class="answers H" style="align-items: center; color: rgb(56 74 107); border: 0.1vw rgb(229,230,255) solid; width: 45vw; justify-content: space-between; position: relative;">
+                  <div class="question" type="button" class="btn btn-light" style="margin-bottom: 0;display: flex; position: relative; align-items: center;color:rgb(23 109 232);font-size: 1.2vw;; padding: 1vw;font-weight: 450;justify-content: space-between;";>What is a novel coronavirus?<i style="color: rgb(56 74 107)" class="fa-solid fa-minus"></i></div>
+                  <p class="answer" style="padding: 1vw; font-size:1vw;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt quasi debitis excepturi reprehenderit facilis distinctio voluptatum laudantium perferendis dolorum inventore officia numquam tenetur corrupti, deleniti iure dolore! Optio, corrupti officiis!</p>
+                </div>
+                <div class="answers" style="align-items: center; color: rgb(56 74 107); border: 0.1vw rgb(229,230,255) solid; width: 45vw; justify-content: space-between; position: relative;">
+                  <div class="question" type="button" class="btn btn-light" style="margin-bottom: 0;display: flex; position: relative; align-items: center; color: rgb(56 74 107); background-color: rgb(243 248 255); font-size: 1.2vw;; padding: 1vw;font-weight: 450;justify-content: space-between;";>Why is the disease being called coronavirus disease 2019, COVID-19?<i style="color: rgb(56 74 107)" class="fa-solid fa-plus"></i></div>
+                  <p class="answer" style="padding: 1vw; font-size:1vw; display: none;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt quasi debitis excepturi reprehenderit facilis distinctio voluptatum laudantium perferendis dolorum inventore officia numquam tenetur corrupti, deleniti iure dolore! Optio, corrupti officiis!</p>
+                </div>
+                <div class="answers" style="align-items: center; color: rgb(56 74 107); border: 0.1vw rgb(229,230,255) solid; width: 45vw; justify-content: space-between; position: relative;">
+                  <div class="question" type="button" class="btn btn-light" style="margin-bottom: 0;display: flex; position: relative; align-items: center; color: rgb(56 74 107); background-color: rgb(243 248 255); font-size: 1.2vw;; padding: 1vw;font-weight: 450;justify-content: space-between;";>How can people help stop stigma related to COVID-19?<i style="color: rgb(56 74 107)" class="fa-solid fa-plus"></i></div>
+                  <p class="answer" style="padding: 1vw; font-size:1vw;display: none;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt quasi debitis excepturi reprehenderit facilis distinctio voluptatum laudantium perferendis dolorum inventore officia numquam tenetur corrupti, deleniti iure dolore! Optio, corrupti officiis!</p>
+                </div>
+                <div class="answers" style="align-items: center; color: rgb(56 74 107); border: 0.1vw rgb(229,230,255) solid; width: 45vw; justify-content: space-between; position: relative;">
+                  <div class="question" type="button" class="btn btn-light" style="margin-bottom: 0;display: flex; position: relative; align-items: center; color: rgb(56 74 107); background-color: rgb(243 248 255); font-size: 1.2vw;; padding: 1vw;font-weight: 450;justify-content: space-between;";>Why might someone blame or avoid individiuals and groups?<i style="color: rgb(56 74 107)" class="fa-solid fa-plus"></i></div>
+                  <p class="answer" style="padding: 1vw; font-size:1vw;display: none;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt quasi debitis excepturi reprehenderit facilis distinctio voluptatum laudantium perferendis dolorum inventore officia numquam tenetur corrupti, deleniti iure dolore! Optio, corrupti officiis!</p>
+                </div>
+              </div>
+              <div class="nn" id="n11" style="display: none ;">
+                <div class="answers H" style="align-items: center; color: rgb(56 74 107); border: 0.1vw rgb(229,230,255) solid; width: 45vw; justify-content: space-between; position: relative;">
+                  <div class="question" type="button" class="btn btn-light" style="margin-bottom: 0;display: flex; position: relative; align-items: center;color:rgb(23 109 232);font-size: 1.2vw;; padding: 1vw;font-weight: 450;justify-content: space-between;";>What is the source of the virus? <i style="color: rgb(56 74 107)" class="fa-solid fa-minus"></i></div>
+                  <p class="answer" style="padding: 1vw; font-size:1vw;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt quasi debitis excepturi reprehenderit facilis distinctio voluptatum laudantium perferendis dolorum inventore officia numquam tenetur corrupti, deleniti iure dolore! Optio, corrupti officiis!</p>
+                </div>
+                <div class="answers" style="align-items: center; color: rgb(56 74 107); border: 0.1vw rgb(229,230,255) solid; width: 45vw; justify-content: space-between; position: relative;">
+                  <div class="question" type="button" class="btn btn-light" style="margin-bottom: 0;display: flex; position: relative; align-items: center; color: rgb(56 74 107); background-color: rgb(243 248 255); font-size: 1.2vw; padding: 1vw;font-weight: 450;justify-content: space-between;";>How does the virus spread?<i style="color: rgb(56 74 107)" class="fa-solid fa-plus"></i></div>
+                  <p class="answer" style="padding: 1vw; font-size:1vw; display: none;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt quasi debitis excepturi reprehenderit facilis distinctio voluptatum laudantium perferendis dolorum inventore officia numquam tenetur corrupti, deleniti iure dolore! Optio, corrupti officiis!</p>
+                </div>
+                <div class="answers" style="align-items: center; color: rgb(56 74 107); border: 0.1vw rgb(229,230,255) solid; width: 45vw; justify-content: space-between; position: relative;">
+                  <div class="question" type="button" class="btn btn-light" style="margin-bottom: 0;display: flex; position: relative; align-items: center; color: rgb(56 74 107); background-color: rgb(243 248 255); font-size: 1.2vw; padding: 1vw;font-weight: 450;justify-content: space-between;";>Can someone who has had COVID-19 spread the illness to others?<i style="color: rgb(56 74 107)" class="fa-solid fa-plus"></i></div>
+                  <p class="answer" style="padding: 1vw; font-size:1vw;display: none;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt quasi debitis excepturi reprehenderit facilis distinctio voluptatum laudantium perferendis dolorum inventore officia numquam tenetur corrupti, deleniti iure dolore! Optio, corrupti officiis!</p>
+                </div>
+                <div class="answers" style="align-items: center; color: rgb(56 74 107); border: 0.1vw rgb(229,230,255) solid; width: 45vw; justify-content: space-between; position: relative;">
+                  <div class="question" type="button" class="btn btn-light" style="margin-bottom: 0;display: flex; position: relative; align-items: center; color: rgb(56 74 107); background-color: rgb(243 248 255); font-size: 1.2vw; padding: 1vw;font-weight: 450;justify-content: space-between;";>Will warm weather stop the outbreak of COVID-19?<i style="color: rgb(56 74 107)" class="fa-solid fa-plus"></i></div>
+                  <p class="answer" style="padding: 1vw; font-size:1vw;display: none;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt quasi debitis excepturi reprehenderit facilis distinctio voluptatum laudantium perferendis dolorum inventore officia numquam tenetur corrupti, deleniti iure dolore! Optio, corrupti officiis!</p>
+                </div>
+                <div class="answers" style="align-items: center; color: rgb(56 74 107); border: 0.1vw rgb(229,230,255) solid; width: 45vw; justify-content: space-between; position: relative;">
+                  <div class="question" type="button" class="btn btn-light" style="margin-bottom: 0;display: flex; position: relative; align-items: center; color: rgb(56 74 107); background-color: rgb(243 248 255); font-size: 1.2vw; padding: 1vw;font-weight: 450;justify-content: space-between;";>Can the virus that causes COVID-19 be spread throught food including refrigerated or frozen food?<i style="color: rgb(56 74 107)" class="fa-solid fa-plus"></i></div>
+                  <p class="answer" style="padding: 1vw; font-size:1vw;display: none;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt quasi debitis excepturi reprehenderit facilis distinctio voluptatum laudantium perferendis dolorum inventore officia numquam tenetur corrupti, deleniti iure dolore! Optio, corrupti officiis!</p>
+                </div>
+                <div class="answers" style="align-items: center; color: rgb(56 74 107); border: 0.1vw rgb(229,230,255) solid; width: 45vw; justify-content: space-between; position: relative;">
+                  <div class="question" type="button" class="btn btn-light" style="margin-bottom: 0;display: flex; position: relative; align-items: center; color: rgb(56 74 107); background-color: rgb(243 248 255); font-size: 1.2vw; padding: 1vw;font-weight: 450;justify-content: space-between;";>What is community spread?<i style="color: rgb(56 74 107)" class="fa-solid fa-plus"></i></div>
+                  <p class="answer" style="padding: 1vw; font-size:1vw;display: none;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt quasi debitis excepturi reprehenderit facilis distinctio voluptatum laudantium perferendis dolorum inventore officia numquam tenetur corrupti, deleniti iure dolore! Optio, corrupti officiis!</p>
+                </div>
+              </div>
+              <div class="nn" id="n22" style="display: none ;">
+                <div class="answers H" style="align-items: center; color: rgb(56 74 107); border: 0.1vw rgb(229,230,255) solid; width: 45vw; justify-content: space-between; position: relative;">
+                  <div class="question" type="button" class="btn btn-light" style="margin-bottom: 0;display: flex; position: relative; align-items: center;color:rgb(23 109 232);font-size: 1.2vw; padding: 1vw;font-weight: 450;justify-content: space-between;";>What can I do to protect myself and prevent the spread of the disease?<i style="color: rgb(56 74 107)" class="fa-solid fa-minus"></i></div>
+                  <p class="answer" style="padding: 1vw; font-size:1vw;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt quasi debitis excepturi reprehenderit facilis distinctio voluptatum laudantium perferendis dolorum inventore officia numquam tenetur corrupti, deleniti iure dolore! Optio, corrupti officiis!</p>
+                </div>
+              
+                <div class="answers" style="align-items: center; color: rgb(56 74 107); border: 0.1vw rgb(229,230,255) solid; width: 45vw; justify-content: space-between; position: relative;">
+                  <div class="question" type="button" class="btn btn-light" style="margin-bottom: 0;display: flex; position: relative; align-items: center; color: rgb(56 74 107); background-color: rgb(243 248 255); font-size: 1.2vw; padding: 1vw;font-weight: 450;justify-content: space-between;";>What is a novel coronavirus?<i style="color: rgb(56 74 107)" class="fa-solid fa-plus"></i></div>
+                  <p class="answer" style="padding: 1vw; font-size:1vw;display: none;">                  
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt quasi debitis excepturi reprehenderit facilis distinctio voluptatum laudantium perferendis dolorum inventore officia numquam tenetur corrupti, deleniti iure dolore! Optio, corrupti officiis!              
+                  </p>
+                </div>
+                <div class="answers" style="align-items: center; color: rgb(56 74 107); border: 0.1vw rgb(229,230,255) solid; width: 45vw; justify-content: space-between; position: relative;">
+                  <div class="question" type="button" class="btn btn-light" style="margin-bottom: 0;display: flex; position: relative; align-items: center; color: rgb(56 74 107); background-color: rgb(243 248 255); font-size: 1.2vw; padding: 1vw;font-weight: 450;justify-content: space-between;";>What is a novel coronavirus?<i style="color: rgb(56 74 107)" class="fa-solid fa-plus"></i></div>
+                  <p class="answer" style="padding: 1vw; font-size:1vw;display: none;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt quasi debitis excepturi reprehenderit facilis distinctio voluptatum laudantium perferendis dolorum inventore officia numquam tenetur corrupti, deleniti iure dolore! Optio, corrupti officiis!</p>
+                </div>
+                <div class="answers" style="align-items: center; color: rgb(56 74 107); border: 0.1vw rgb(229,230,255) solid; width: 45vw; justify-content: space-between; position: relative;">
+                  <div class="question" type="button" class="btn btn-light" style="margin-bottom: 0;display: flex; position: relative; align-items: center; color: rgb(56 74 107); background-color: rgb(243 248 255); font-size: 1.2vw; padding: 1vw;font-weight: 450;justify-content: space-between;";>What is a novel coronavirus?<i style="color: rgb(56 74 107)" class="fa-solid fa-plus"></i></div>
+                  <p class="answer" style="padding: 1vw; font-size:1vw;display: none;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt quasi debitis excepturi reprehenderit facilis distinctio voluptatum laudantium perferendis dolorum inventore officia numquam tenetur corrupti, deleniti iure dolore! Optio, corrupti officiis!</p>
+                </div>
+              </div>
+              <div class="nn" id="n33" style="display: none ;">
+                <div class="answers H" style="align-items: center; color: rgb(56 74 107); border: 0.1vw rgb(229,230,255) solid; width: 45vw; justify-content: space-between; position: relative;">
+                  <div class="question" type="button" class="btn btn-light" style="margin-bottom: 0;display: flex; position: relative; align-items: center;color:rgb(23 109 232);font-size: 1.2vw; padding: 1vw;font-weight: 450;justify-content: space-between;";>a<i style="color: rgb(56 74 107)" class="fa-solid fa-minus"></i></div>
+                  <p class="answer" style="padding: 1vw; font-size:1vw;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt quasi debitis excepturi reprehenderit facilis distinctio voluptatum laudantium perferendis dolorum inventore officia numquam tenetur corrupti, deleniti iure dolore! Optio, corrupti officiis!</p>
+                </div>
+                <div class="answers" style="align-items: center; color: rgb(56 74 107); border: 0.1vw rgb(229,230,255) solid; width: 45vw; justify-content: space-between; position: relative;">
+                  <div class="question" type="button" class="btn btn-light" style="margin-bottom: 0;display: flex; position: relative; align-items: center; color: rgb(56 74 107); background-color: rgb(243 248 255); font-size: 1.2vw; padding: 1vw;font-weight: 450;justify-content: space-between;";>What is a novel coronavirus?<i style="color: rgb(56 74 107)" class="fa-solid fa-plus"></i></div>
+                  <p class="answer" style="padding: 1vw; font-size:1vw; display: none;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt quasi debitis excepturi reprehenderit facilis distinctio voluptatum laudantium perferendis dolorum inventore officia numquam tenetur corrupti, deleniti iure dolore! Optio, corrupti officiis!</p>
+                </div>
+                <div class="answers" style="align-items: center; color: rgb(56 74 107); border: 0.1vw rgb(229,230,255) solid; width: 45vw; justify-content: space-between; position: relative;">
+                  <div class="question" type="button" class="btn btn-light" style="margin-bottom: 0;display: flex; position: relative; align-items: center; color: rgb(56 74 107); background-color: rgb(243 248 255); font-size: 1.2vw; padding: 1vw;font-weight: 450;justify-content: space-between;";>What is a novel coronavirus?<i style="color: rgb(56 74 107)" class="fa-solid fa-plus"></i></div>
+                  <p class="answer" style="padding: 1vw; font-size:1vw;display: none;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt quasi debitis excepturi reprehenderit facilis distinctio voluptatum laudantium perferendis dolorum inventore officia numquam tenetur corrupti, deleniti iure dolore! Optio, corrupti officiis!</p>
+                </div>
+                <div class="answers" style="align-items: center; color: rgb(56 74 107); border: 0.1vw rgb(229,230,255) solid; width: 45vw; justify-content: space-between; position: relative;">
+                  <div class="question" type="button" class="btn btn-light" style="margin-bottom: 0;display: flex; position: relative; align-items: center; color: rgb(56 74 107); background-color: rgb(243 248 255); font-size: 1.2vw; padding: 1vw;font-weight: 450;justify-content: space-between;";>What is a novel coronavirus?<i style="color: rgb(56 74 107)" class="fa-solid fa-plus"></i></div>
+                  <p class="answer" style="padding: 1vw; font-size:1vw;display: none;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt quasi debitis excepturi reprehenderit facilis distinctio voluptatum laudantium perferendis dolorum inventore officia numquam tenetur corrupti, deleniti iure dolore! Optio, corrupti officiis!</p>
+                </div>
+                <div class="answers" style="align-items: center; color: rgb(56 74 107); border: 0.1vw rgb(229,230,255) solid; width: 45vw; justify-content: space-between; position: relative;">
+                  <div class="question" type="button" class="btn btn-light" style="margin-bottom: 0;display: flex; position: relative; align-items: center; color: rgb(56 74 107); background-color: rgb(243 248 255); font-size: 1.2vw; padding: 1vw;font-weight: 450;justify-content: space-between;";>What is a novel coronavirus?<i style="color: rgb(56 74 107)" class="fa-solid fa-plus"></i></div>
+                  <p class="answer" style="padding: 1vw; font-size:1vw;display: none;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt quasi debitis excepturi reprehenderit facilis distinctio voluptatum laudantium perferendis dolorum inventore officia numquam tenetur corrupti, deleniti iure dolore! Optio, corrupti officiis!</p>
+                </div>
+              </div>
+              <div class="nn" id="n44" style="display: none ;">
+                <div class="answers H" style="align-items: center; color: rgb(56 74 107); border: 0.1vw rgb(229,230,255) solid; width: 45vw; justify-content: space-between; position: relative;">
+                  <div class="question" type="button" class="btn btn-light" style="margin-bottom: 0;display: flex; position: relative; align-items: center;color:rgb(23 109 232);font-size: 1.2vw; padding: 1vw;font-weight: 450;justify-content: space-between;";>b<i style="color: rgb(56 74 107)" class="fa-solid fa-minus"></i></div>
+                  <p class="answer" style="padding: 1vw; font-size:1vw;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt quasi debitis excepturi reprehenderit facilis distinctio voluptatum laudantium perferendis dolorum inventore officia numquam tenetur corrupti, deleniti iure dolore! Optio, corrupti officiis!</p>
+                </div>
+                <div class="answers" style="align-items: center; color: rgb(56 74 107); border: 0.1vw rgb(229,230,255) solid; width: 45vw; justify-content: space-between; position: relative;">
+                  <div class="question" type="button" class="btn btn-light" style="margin-bottom: 0;display: flex; position: relative; align-items: center; color: rgb(56 74 107); background-color: rgb(243 248 255); font-size: 1.2vw; padding: 1vw;font-weight: 450;justify-content: space-between;";>What is a novel coronavirus?<i style="color: rgb(56 74 107)" class="fa-solid fa-plus"></i></div>
+                  <p class="answer" style="padding: 1vw; font-size:1vw; display: none;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt quasi debitis excepturi reprehenderit facilis distinctio voluptatum laudantium perferendis dolorum inventore officia numquam tenetur corrupti, deleniti iure dolore! Optio, corrupti officiis!</p>
+                </div>
+                <div class="answers" style="align-items: center; color: rgb(56 74 107); border: 0.1vw rgb(229,230,255) solid; width: 45vw; justify-content: space-between; position: relative;">
+                  <div class="question" type="button" class="btn btn-light" style="margin-bottom: 0;display: flex; position: relative; align-items: center; color: rgb(56 74 107); background-color: rgb(243 248 255); font-size: 1.2vw; padding: 1vw;font-weight: 450;justify-content: space-between;";>What is a novel coronavirus?<i style="color: rgb(56 74 107)" class="fa-solid fa-plus"></i></div>
+                  <p class="answer" style="padding: 1vw; font-size:1vw;display: none;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt quasi debitis excepturi reprehenderit facilis distinctio voluptatum laudantium perferendis dolorum inventore officia numquam tenetur corrupti, deleniti iure dolore! Optio, corrupti officiis!</p>
+                </div>
+                <div class="answers" style="align-items: center; color: rgb(56 74 107); border: 0.1vw rgb(229,230,255) solid; width: 45vw; justify-content: space-between; position: relative;">
+                  <div class="question" type="button" class="btn btn-light" style="margin-bottom: 0;display: flex; position: relative; align-items: center; color: rgb(56 74 107); background-color: rgb(243 248 255); font-size: 1.2vw; padding: 1vw;font-weight: 450;justify-content: space-between;";>What is a novel coronavirus?<i style="color: rgb(56 74 107)" class="fa-solid fa-plus"></i></div>
+                  <p class="answer" style="padding: 1vw; font-size:1vw;display: none;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt quasi debitis excepturi reprehenderit facilis distinctio voluptatum laudantium perferendis dolorum inventore officia numquam tenetur corrupti, deleniti iure dolore! Optio, corrupti officiis!</p>
+                </div>
+                <div class="answers" style="align-items: center; color: rgb(56 74 107); border: 0.1vw rgb(229,230,255) solid; width: 45vw; justify-content: space-between; position: relative;">
+                  <div class="question" type="button" class="btn btn-light" style="margin-bottom: 0;display: flex; position: relative; align-items: center; color: rgb(56 74 107); background-color: rgb(243 248 255); font-size: 1.2vw; padding: 1vw;font-weight: 450;justify-content: space-between;";>What is a novel coronavirus?<i style="color: rgb(56 74 107)" class="fa-solid fa-plus"></i></div>
+                  <p class="answer" style="padding: 1vw; font-size:1vw;display: none;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt quasi debitis excepturi reprehenderit facilis distinctio voluptatum laudantium perferendis dolorum inventore officia numquam tenetur corrupti, deleniti iure dolore! Optio, corrupti officiis!</p>
+                </div>
+              </div>
+              <div class="nn" id="n55" style="display: none ;">
+                <div class="answers H" style="align-items: center; color: rgb(56 74 107); border: 0.1vw rgb(229,230,255) solid; width: 45vw; justify-content: space-between; position: relative;">
+                  <div class="question" type="button" class="btn btn-light" style="margin-bottom: 0;display: flex; position: relative; align-items: center;color:rgb(23 109 232);font-size: 1.2vw; padding: 1vw;font-weight: 450;justify-content: space-between;";>c<i style="color: rgb(56 74 107)" class="fa-solid fa-minus"></i></div>
+                  <p class="answer" style="padding: 1vw; font-size:1vw;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt quasi debitis excepturi reprehenderit facilis distinctio voluptatum laudantium perferendis dolorum inventore officia numquam tenetur corrupti, deleniti iure dolore! Optio, corrupti officiis!</p>
+                </div>
+                <div class="answers" style="align-items: center; color: rgb(56 74 107); border: 0.1vw rgb(229,230,255) solid; width: 45vw; justify-content: space-between; position: relative;">
+                  <div class="question" type="button" class="btn btn-light" style="margin-bottom: 0;display: flex; position: relative; align-items: center; color: rgb(56 74 107); background-color: rgb(243 248 255); font-size: 1.2vw; padding: 1vw;font-weight: 450;justify-content: space-between;";>What is a novel coronavirus?<i style="color: rgb(56 74 107)" class="fa-solid fa-plus"></i></div>
+                  <p class="answer" style="padding: 1vw; font-size:1vw; display: none;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt quasi debitis excepturi reprehenderit facilis distinctio voluptatum laudantium perferendis dolorum inventore officia numquam tenetur corrupti, deleniti iure dolore! Optio, corrupti officiis!</p>
+                </div>
+                <div class="answers" style="align-items: center; color: rgb(56 74 107); border: 0.1vw rgb(229,230,255) solid; width: 45vw; justify-content: space-between; position: relative;">
+                  <div class="question" type="button" class="btn btn-light" style="margin-bottom: 0;display: flex; position: relative; align-items: center; color: rgb(56 74 107); background-color: rgb(243 248 255); font-size: 1.2vw; padding: 1vw;font-weight: 450;justify-content: space-between;";>What is a novel coronavirus?<i style="color: rgb(56 74 107)" class="fa-solid fa-plus"></i></div>
+                  <p class="answer" style="padding: 1vw; font-size:1vw;display: none;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt quasi debitis excepturi reprehenderit facilis distinctio voluptatum laudantium perferendis dolorum inventore officia numquam tenetur corrupti, deleniti iure dolore! Optio, corrupti officiis!</p>
+                </div>
+                <div class="answers" style="align-items: center; color: rgb(56 74 107); border: 0.1vw rgb(229,230,255) solid; width: 45vw; justify-content: space-between; position: relative;">
+                  <div class="question" type="button" class="btn btn-light" style="margin-bottom: 0;display: flex; position: relative; align-items: center; color: rgb(56 74 107); background-color: rgb(243 248 255); font-size: 1.2vw; padding: 1vw;font-weight: 450;justify-content: space-between;";>What is a novel coronavirus?<i style="color: rgb(56 74 107)" class="fa-solid fa-plus"></i></div>
+                  <p class="answer" style="padding: 1vw; font-size:1vw;display: none;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt quasi debitis excepturi reprehenderit facilis distinctio voluptatum laudantium perferendis dolorum inventore officia numquam tenetur corrupti, deleniti iure dolore! Optio, corrupti officiis!</p>
+                </div>
+                <div class="answers" style="align-items: center; color: rgb(56 74 107); border: 0.1vw rgb(229,230,255) solid; width: 45vw; justify-content: space-between; position: relative;">
+                  <div class="question" type="button" class="btn btn-light" style="margin-bottom: 0;display: flex; position: relative; align-items: center; color: rgb(56 74 107); background-color: rgb(243 248 255); font-size: 1.2vw; padding: 1vw;font-weight: 450;justify-content: space-between;";>What is a novel coronavirus?<i style="color: rgb(56 74 107)" class="fa-solid fa-plus"></i></div>
+                  <p class="answer" style="padding: 1vw; font-size:1vw;display: none;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt quasi debitis excepturi reprehenderit facilis distinctio voluptatum laudantium perferendis dolorum inventore officia numquam tenetur corrupti, deleniti iure dolore! Optio, corrupti officiis!</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <div id="news" class="section container" style="height: 100vh; justify-content: center; align-items: center; display: flex; flex-direction: column;">
+      <h4 style="color: #0096fe;font-weight: bold; font-size: 2vw;">RECENT FROM BLOG</h4>
+      <h1 style="color: rgb(56 74 107);font-weight: bold; font-size: 3.5vw;">LATEST UPDATE</h1>
+
+      <div class="cards" style="margin-top: 2%;">
+        <div class="card" style="width: 20vw; border-radius: 5%; margin: 1vw 0;">
+          <div style="margin: 1vw 1vw;">
+            <img src="../imgs/blog-a.jpg" class="card-img-top" alt="!!" style="margin-bottom: 5%; border-radius: 4%;"/>
+            <div>
+              <h5 style="text-align: center;color: rgb(56 74 107);font-weight: bold; font-size: 1.25vw;">Caring for someone at home</h5>
+              <p class="card-text" style="font-size: 0.8vw ;text-align: center;">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum
+                reprehenderit quibusdam unde molestiae! Asperiores illum odit
+                tempore voluptatum nihil quo ab, sed commodi, doloribus deserunt
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="card" style="width: 20vw;border-radius: 5%;margin: 0 2vw;">
+          <div style="margin: 1vw 1vw;">
+            <img src="../imgs/blog-b.jpg" class="card-img-top" alt="!!" style="margin-bottom: 5%; border-radius: 4%;"/>
+            <div>
+              <h5 style="text-align: center;color: rgb(56 74 107);font-weight: bold; font-size: 1.25vw;">15 ways to keep safe and healthy</h5>
+              <p class="card-text" style="font-size: 0.8vw ;text-align: center;">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum
+                reprehenderit quibusdam unde molestiae! Asperiores illum odit
+                tempore voluptatum nihil quo ab, sed commodi, doloribus deserunt
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="card" style="width: 20vw;border-radius: 5%;margin: 1vw 0;">
+          <div style="margin: 1vw 1vw;">
+            <img src="../imgs/blog-c.jpg" class="card-img-top" alt="!!" style="margin-bottom: 5%; border-radius: 4%;"/>
+            <div>
+              <h5 style="text-transform: capitalize;text-align: center;color: rgb(56 74 107);font-weight: bold; font-size: 1.25vw;">if you think you are sick</h5>
+              <p class="card-text" style="font-size: 0.8vw ;text-align: center;">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum
+                reprehenderit quibusdam unde molestiae! Asperiores illum odit
+                tempore voluptatum nihil quo ab, sed commodi, doloribus deserunt
+              </p>
+            </div>
+          </div>
+        </div>     
+      </div>
+      </div>
+      <footer id="footer" class="section" style="display: flex;flex-direction: column; justify-content: center; align-items: center; color: white;background-image: url(../imgs/shape-a.png);background-color: rgb(21, 28, 46);">
+        <div class="container" style="width: 65%;">       
+          <div style="padding-right: 10%;"> 
+          <div class="logo" style="font-weight: bold;width: fit-content; color: white;margin-left: 0;">
+            <span>C </span>
+            <span>
+              <img
+                style="width:100%"
+                class="logoImage"
+                src="../imgs/TitleIcon-removebg-preview.png"
+                alt="Logo"
+
+            /></span>
+            <span> V</span>
+            <span> I</span>
+            <span> D</span>
+            <span style="color: rgb(79 105 148)"> 1</span>
+            <span style="color: rgb(79 105 148)"> 9</span>
+          </div>
+          <p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi ex provident voluptatem deleniti aperiam sapiente ducimus doloremque nihil, libero numquam?</p>
+          <p">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam, dolor.</p>
+          <div style="display: flex; justify-content: space-evenly;margin-bottom:6%;margin-top:4%;">
+            <button style="border: none; text-transform: capitalize;background-color: rgb(59, 89, 153); color: white; padding: 0.5% 2%;">find us on facebook</button>
+            <button style="border: none; text-transform: capitalize;background-color: rgb(85, 172, 238); color: white; padding: 0.5% 2%;margin: 0 2%;">find us on twitter</button>
+            <button style="border: none; text-transform: capitalize;background-color: rgb(228, 64, 95); color: white; padding: 0.5% 2%;">find us on instagram</button>
+          </div>
+          <div style=" display: flex; align-items: center;  justify-content: space-between;margin-bottom: 7%; margin-right: -7%;">
+            <div>
+              <h4 class="text-uppercase">quick link</h4>
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="#about-covid" class="text-white" style="text-transform: capitalize;">about corona</a>
+                </li>
+                <li>
+                  <a href="#symptoms" class="text-white" style="text-transform: capitalize;">syptoms</a>
+                </li>
+                <li>
+                  <a href="#prevention" class="text-white" style="text-transform: capitalize;">prevention</a>
+                </li>
+                <li>
+                  <a href="#dos-donts" class="text-white" style="text-transform: capitalize;">protect yourself</a>
+                </li>
+                <li>
+                  <a href="#Q-A" class="text-white" style="text-transform: capitalize;">FAQs</a>
+                </li>
+              </ul>
+            </div>
+
+            <div style="margin:0 1%;">
+              <h4 class="text-uppercase">helpfull link</h4>
+
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="#!" class="text-white">Link 1</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Link 2</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Link 3</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Link 4</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Link 5</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Link 6</a>
+                </li>
+              </ul>
+            </div>
+
+            <div>
+              <h4 class="text-uppercase">important link</h4>
+
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="#!" class="text-white">Link 1</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Link 2</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Link 3</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Link 4</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Link 5</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Link 6</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          </div>
+          <hr>
+          <div>
+            <p> &copy; 2021 COVID 19 Template Made by <b style="font-weight: bolder;">Amany Abdelfattah</b></p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam aut quasi reiciendis velit doloremque dolores inventore exercitationem repudiandae dolor nostrum. Ducimus nobis pariatur rerum reprehenderit aliquam odio culpa itaque excepturi, numquam dicta ullam illum? Unde magnam sint quae magni, officiis rerum commodi sit aut deleniti nihil in fugit voluptates optio!</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+    </div>
+  </div>
+    <script src="../Project/scripts.js"></script>
+  </body>
+</html>
